@@ -23,7 +23,7 @@ html{
 #segundaparte p {                
         font-size:20px;
         width:600px;
-        
+       
         color: black;
        
 }
@@ -45,7 +45,8 @@ img.Sena{
     height:60%;
     width:20%;
     margin-top:10%;
-    margin-left:12%;
+    margin-left:10%;
+    
 }
 
 
@@ -117,3 +118,119 @@ img.Sena{
     padding-bottom: 70px;
     padding-left: 100px;
 }
+
+
+@media screen and (max-width: 1220px) {
+    #segundaparte .Sena   {
+        margin-left:8%;
+        margin-top:15%;
+        
+        
+     }
+     #segundaparte .texto   {
+        margin-left:10%;
+        
+     }
+   }
+   
+   
+
+   @media screen and (max-width: 1115px) {
+    #segundaparte .texto   {
+        margin-left:20%;
+        font-size:10px;
+        
+     }
+
+    #segundaparte  {display: block;
+        height:1100px;
+    }
+
+    #segundaparte .Sena {
+        height: 35%;
+        margin-top:0%;
+        margin-left:40%;
+        width:30%;
+    }
+   }
+
+   @media  screen and (max-width:833px) {
+    #segundaparte p   {
+        margin-left:0%;
+        font-size:2.5vh;
+        width:80%;
+        
+     }
+       #segundaparte .texto {
+           margin-left:10%;
+       }
+       #segundaparte .Sena{
+           width:30%;
+           margin-top:5%;
+           margin-left:30%;
+           height:25%;
+       }
+   }
+
+   @media  screen and (max-width:559px) {
+    #segundaparte p   {
+        margin-left:0%;
+        font-size:2.5vh;
+        width:60%;
+        
+     }
+       #segundaparte .texto {
+           margin-left:10%;
+       }
+       #segundaparte .Sena{
+           width:40%;
+           margin-top:25%;
+           margin-left:30%;
+           height:25%;
+       }
+   }
+
+   @media  screen and (max-width:1372px){
+    #terceiraparte .texto2{
+        width:25%;
+        margin-left:10%;
+        width:33%;
+    }
+        #terceiraparte{
+            background-size: cover;
+        }
+        #terceiraparte #bandeira{
+            padding-left:1%;
+            width:100%;
+        }
+   }
+
+   @media  screen and (max-width:1089.6px){
+       #terceiraparte {
+           height:900px;
+           
+       }
+   }
+
+   @media  screen and (max-width:1075.2px)
+   {
+        #terceiraparte #bandeira  {
+            padding-left:1%;
+            height:85%;
+        }
+   }
+
+   @media  screen and (max-width:921.6px){
+      
+
+       #terceiraparte #bandeira{
+            display: none;
+       }
+       #terceiraparte .texto2{
+           width:90%;
+           margin-right: 15%;
+           padding-top:20%;
+           margin-bottom:20%;
+           margin-top:20%;
+       }
+   }

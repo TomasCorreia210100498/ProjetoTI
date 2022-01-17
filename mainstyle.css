@@ -103,7 +103,7 @@ section.primeiraparte video{
 }
 
 .primeiraparte h1{
-    font-size:130px;
+    font-size:20vh;
     z-index:5;
     color:white;
     padding-top:17%;
@@ -113,5 +113,18 @@ section.primeiraparte video{
     
 }
 
+@media screen and (max-width: 1007.2px) {
+   .primeiraparte h1 {
+      font-size: 15vh;
+    }
+  }
 
 
+  @media screen and (max-width: 716px) {
+    .primeiraparte h1 {
+       font-size: 8vh;
+     }
+   }
+
+
+   
