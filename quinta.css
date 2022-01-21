@@ -69,3 +69,24 @@ html{
     font-size:20px;
     
 }
+
+/*MEDIA QUERIES */
+
+@media screen and (max-width:1358px ){
+    #texto3{
+        width:95%;
+
+    }
+    #texto3 p{
+        height:40%;
+    }
+    #QuintaImg p{
+        height:40%;
+    }
+}
+
+@media screen and (max-width:1295px){
+    #setimaparte p{
+        
+    }
+}

@@ -55,4 +55,46 @@
     background-image:url(Img/surf3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    width:100%;
+    
+}
+
+@media screen and (max-width: 1250px){
+    #flex a  {
+        width:5%;
+        height:5%;
+       
+    }
+    #textosurf{
+        margin-top:20%;
+    }
+    #Surfprimeira{
+        height:1300px;
+    }
+    
+
+}
+
+@media screen and (max-width: 1250px){
+    #textosurf{
+        margin-top:60%;
+    }
+    #textosurf p{
+        width:75%;
+        
+    }
+}
+
+@media screen and (max-width: 900px){
+    #textosurf{
+        margin-top:80%;
+    }
+}
+
+@media screen and (max-width: 682.8px){
+    #WSL {
+        width:650%;
+        height:400%;
+        
+    }
 }
