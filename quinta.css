@@ -83,6 +83,9 @@ html{
     #QuintaImg p{
         height:40%;
     }
+    #setimaparte{
+        height:1500px;
+    }
 }
 
 @media screen and (max-width:1229px){
@@ -114,4 +117,33 @@ html{
     width:70vw;
     margin-top:5%;
    }
+   #setimaparte{
+    height:2000px;
+}
+}
+
+@media screen and (max-width:873px){
+    #setimaparte{
+        height:1550x;
+    }
+}
+
+@media screen and (max-width:614px){
+        #setimaparte p{
+            font-size:3vw;
+        }
+        #setimaparte{
+            height:1450px;
+        }
+}
+
+@media screen and (max-width:888px){
+    #setimaparte{
+        height:1700px;
+    }
+}
+@media screen and (max-width:497.6px){
+    #setimaparte{
+        height:1250px;
+    }
 }
