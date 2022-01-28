@@ -86,3 +86,9 @@ html{
             width:60vw;
         }
  }
+
+ @media  screen and (max-width:499.2px){
+     #mapacords p{
+         font-size:3vw;
+     }
+ }

@@ -15,7 +15,7 @@ html{
 
 #segundaparte{
     background-image: url(Img/penicheviewcima.jpg);
-    background-attachment: fixed;
+    background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
     height:711px;
@@ -79,7 +79,25 @@ html{
        
     }
     #segundaparte p{
-        font-size:3vw;
+        font-size:2.5vw;
+    }
+    #segundaparte{
+        height:1220px;
     }
 }
+
+@media  screen and (max-width:690px){
+    #segundaparte{
+        height:900px;
+    }
+}
+
+@media  screen and (max-width:515px){
+    #segundaparte{
+        height:650px;
+    }
+}
+
+
+
 
