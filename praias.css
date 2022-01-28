@@ -80,3 +80,20 @@ html{
     }
 }
 
+@media  screen and (max-width:770px){
+    #quintaparte{
+        height:570px;
+    }
+    #sextaparte{
+        height:400px;
+    }
+}
+
+@media  screen and (max-width:543px){
+    #quintaparte{
+        height:450px;
+    }
+    #sextaparte{
+       height:300px;
+    }
+}
