@@ -99,7 +99,6 @@ html{
 
 .galeriainatel {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     padding-top:50px;
     border-bottom: 3px solid white;
@@ -108,4 +107,88 @@ html{
 
 .galeriainatel img:hover{
     transform:scale(1.3);
+}
+
+@media  screen and (max-width:1483px){
+    .imgtext p {
+        padding-left:10vw;
+    }
+}
+
+
+@media  screen and (max-width:1298px){
+   .imagemtexto {
+       display:block;
+   }
+   .imagemtexto img{
+       margin-left:30vw;
+   }
+   .inateltexto p{
+       font-size:2vw;
+       width:80vw;
+       padding-left:10vw;
+   }
+   #quartaparte{
+       height:2200px;
+   }
+}
+
+@media  screen and (max-width:1139px){
+   #geraçõesfut {
+       display:block;
+       width:80vw;
+       height:auto;
+       padding-left:25vw;
+       padding-bottom:5vw;
+   }
+   #geraçõesfut p{
+       display:none;
+   }
+   #geraçõesfut img {
+       padding-bottom:5vw;
+   }
+   #quartaparte{
+    height:3000px;
+}
+}
+
+
+
+@media  screen and (max-width:824px){
+    .inateltexto p{
+        font-size:3vw;
+    }
+    #quartaparte h2{
+        font-size:5vw;
+    }
+    .imagemtexto img{
+        margin-left:17vw;
+        height:auto;
+        width:30vw;
+        padding-bottom:10vw;
+    }
+    .galeriainatel {
+        display:block;
+
+    }
+    .galeriainatel img{
+        height:auto;
+        width:80vw;
+        padding-left:10vw;
+    }
+    #quartaparte{
+        height:3500px;
+    }
+}
+
+@media  screen and (max-width:690px){
+    #quartaparte{
+        height:2950px;
+    }
+}
+
+@media  screen and (max-width:476px){
+    #quartaparte{
+        height:2400px;
+    }
 }

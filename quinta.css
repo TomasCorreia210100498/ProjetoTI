@@ -54,8 +54,8 @@ html{
 }
 
 #QuintaImg Img{
-    width:45%;
-    height:60%;
+    width:40vw;
+    height:auto;
     margin-left:5%;
     margin-top:4%;
     border-radius: 5px;
@@ -85,8 +85,33 @@ html{
     }
 }
 
-@media screen and (max-width:1295px){
-    #setimaparte p{
-        
-    }
+@media screen and (max-width:1229px){
+   #texto3{
+       display:block;
+   }
+   #QuintaImg{
+       display:block;
+       align-items: center;
+   }
+   #texto3 img{
+       width:80%;
+       height:80%;
+   }
+   #QuintaImg img{
+       width:75%;
+       height:75%;
+      
+   }
+   #texto3 p{
+       font-size:2vw;
+       margin-left:3vw;
+       width:70vw;
+       margin-top:5%;
+   }
+   #QuintaImg p{
+    font-size:2vw;
+    margin-left:3vw;
+    width:70vw;
+    margin-top:5%;
+   }
 }
